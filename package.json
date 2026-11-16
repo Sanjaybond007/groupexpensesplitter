@@ -1,0 +1,16 @@
+{
+  "name": "group-expense-splitter",
+  "version": "1.0.0",
+  "description": "Group expense splitting with editable shares and customizable exports",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {},
+  "engines": { "node": ">=18" }
+}
